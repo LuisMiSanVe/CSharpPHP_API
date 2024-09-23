@@ -23,7 +23,7 @@ CREATE TABLE `bas_categoria` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
-Now you just need to run the CategoriesApi to use the PHP REST API from the C# REST API.
+Now you just need to run CategoriesApi to use the PHP REST API from the C# REST API.
 ## Files
 PHP side:
 - index.php: It's the main part of the program, it executes the code writen.
