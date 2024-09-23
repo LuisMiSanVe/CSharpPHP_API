@@ -1,4 +1,4 @@
-# CSharpPHP_API
+# C# - PHP REST APIs Cummication Project
 This project consists in two REST APIs communicating in order to make more distance between the user and the database.
 > [!WARNING]
 > Part of the code, especially variable names or table columns, are written in Spanish. Thankfully, they're almost the same as their English equivalents.
