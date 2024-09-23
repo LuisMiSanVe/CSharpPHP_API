@@ -1,4 +1,4 @@
-# C# - PHP REST APIs Cummication Project
+# C# - PHP REST APIs Communication Project
 This project consists in two REST APIs communicating in order to make more distance between the user and the database.
 > [!WARNING]
 > Part of the code, especially variable names or table columns, are written in Spanish. Thankfully, they're almost the same as their English equivalents.
@@ -28,7 +28,7 @@ Now you just need to run the CategoriesApi to use the PHP REST API from the C# R
 PHP side:
 - index.php: It's the main part of the program, it executes the code writen.
 - models/bas_categoria.php: has the different mehods and querys defined.
-- controllers/bas_categoria_controller.php: contains the functions that directly execute the code in bas_categoria.php
+- controllers/bas_categoria_controller.php: contains the functions that directly execute the code in 'bas_categoria.php'.
 - config/database.php: Creates the connection with the database.
 - config/definiciones.php: Have declared the connection parameters.
 
@@ -39,9 +39,9 @@ If we could make a timeline of the execution time it would be like this:
 4. 'index' calls 'bas_categoria_controller' to execute the order.
 5. 'bas_categoria_controller' calls 'bas_categoria' and executes the code.
 6. 'index' returns the result.
-7. The C# REST API recieves it and shows it to the user.
+7. The C# REST API receives it and shows it to the user.
 ## Technologies used
-- Programming Lenguage: C#, PHP
+- Programming Lenguages: C#, PHP
 - Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
 - NuGets:
   - Swashbuckle.AapNetCore (6.4.0)
@@ -50,4 +50,4 @@ If we could make a timeline of the execution time it would be like this:
     - Apache
     - MySQL 
     - PhpMyAdmin
-- Recomended IDEs: Visual Studio 2022 (C#), VS Code (PHP)
+- Recommended IDEs: Visual Studio 2022 (C#), VS Code (PHP)
