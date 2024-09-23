@@ -13,7 +13,7 @@ In Windows should be something like `C:\xampp\htdocs`
 
 Now rise the Apache and MySQL servers in XAMPP and click 'Admin' on the MySQL section and it will open your default browser with PhpMyAdmin, the web-based database manager.
 
-Create a new database called 'phprest' and run the following SQL command to create the main table.
+Create a new database called 'phprest' and run the following SQL command to create the main table:
 ```
 CREATE TABLE `bas_categoria` (
   `id_categoria` int(11) NOT NULL AUTO_INCREMENT,
