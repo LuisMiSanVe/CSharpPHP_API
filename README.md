@@ -1,3 +1,4 @@
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/CSharpPHP_API/tree/spanish)
 # 🌐 C# - PHP REST APIs Communication Project
 This project consists in two REST APIs communicating in order to make more distance between the user and the database.
 > [!WARNING]
