@@ -1,19 +1,17 @@
-# 🌐 C# - PHP REST APIs Communication Project
-This project consists in two REST APIs communicating in order to make more distance between the user and the database.
-> [!WARNING]
-> Part of the code, especially variable names or table columns, are written in Spanish. Thankfully, they're almost the same as their English equivalents.
-
-## 📋 Prerequisites
-First of all, you'll need servers to locate the REST APIs, you can manage to make it work perfectly with [XAMPP](https://www.apachefriends.org/es/index.html) or similar programs that provide local servers, so make sure you have it installed.
+> [Ver en ingles/See in english](https://github.com/LuisMiSanVe/CSharpPHP_API/tree/main)
+# 🌐 Proyectos de Comunicación entre REST APIs de C# y PHP
+El proyecto consiste en dos REST APIs que se comunican entre ellas para aumentar la distancia entre el usuario y la base de datos.
+## 📋 Prerequisitos
+Antes de nada, necesitarás servidores para alojar las REST APIs, puedes apañartelas perfectamente con [XAMPP](https://www.apachefriends.org/es/index.html) o programas similares que permiten levantar servidores en local.
 > [!NOTE]
-> I'll use XAMPP to explain the project's functionality.
+> Usaré XAMPP para explicar la funcionalidad de los proyectos.
 
-Once XAMPP is installed, copy the whole PHPProject folder and paste it into the 'htdocs' folder inside the XAMPP install route.
-In Windows should be something like `C:\xampp\htdocs`
+Una vez XAMPP esté instalado, copia la carpeta de PHPPProject y pegalo en la carpeta 'htdocs' dentro de la carpeta de instalación de XAMPP.
+En Windows debería ser algo como `C:\xampp\htdocs`.
 
-Now rise the Apache and MySQL servers in XAMPP and click 'Admin' on the MySQL section and it will open your default browser with PhpMyAdmin, the web-based database manager.
+Ahora levanta los servidores de Apache y MySQL en XAMPP y dale clic a 'Admin' en la sección de MySQL lo que abrirá en tu navegador por defecto PhpAdmin, el administrador de bases de datos en web.
 
-Create a new database called 'phprest' and run the following SQL command to create the main table:
+Crea una nueva base de datos llamada 'phprest' y ejecuta el siguiente comando SQL para crear la tabla principal:
 ```
 CREATE TABLE `bas_categoria` (
   `id_categoria` int(11) NOT NULL AUTO_INCREMENT,
@@ -23,31 +21,31 @@ CREATE TABLE `bas_categoria` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
-Now you just need to run CategoriesApi to use the PHP REST API from the C# REST API.
-## 📂 Files
-PHP side:
-- index.php: It's the main part of the program, it executes the code writen.
-- models/bas_categoria.php: has the different mehods and querys defined.
-- controllers/bas_categoria_controller.php: contains the functions that directly execute the code in 'bas_categoria.php'.
-- config/database.php: Creates the connection with the database.
-- config/definiciones.php: Have declared the connection parameters.
+Ahora solo tienes que ejecutar CategoriesApi para usar la REST API de PHP desde la REST API de C#
+## 📂 Archivos
+En PHP:
+- index.php: Parte principal de la API, es el que ejecuta el código.
+- models/bas_categoria.php: tiene definidas las diferentes consultas y métodos.
+- controllers/bas_categoria_controller.php: contiene las funciones que se ejecutan directamente en 'bas_categoria.php'.
+- config/database.php: Crea la conexión con la base de datos.
+- config/definiciones.php: Tiene declarados los parametros de la conexión.
 
-If we could make a timeline of the execution time it would be like this:
-1. 'index' starts executing the code.
-2. 'database' takes the connection parameters from 'definiciones' and connects to the database server.
-3. From the C# REST API we try an endpoint.
-4. 'index' calls 'bas_categoria_controller' to execute the order.
-5. 'bas_categoria_controller' calls 'bas_categoria' and executes the code.
-6. 'index' returns the result.
-7. The C# REST API receives it and shows it to the user.
-## 💻 Technologies used
-- Programming Lenguages: C#, PHP
-- Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
+Si creasemos una linea de tiempo de la ejecución seria algo asi:
+1. 'index' empieza a ejecutar el código.
+2. 'database' recoge los parametros de conexión de 'definiciones' y se conecta al Servidor de la base de datos.
+3. Ejecutamos el endpoint de la REST API de C#.
+4. 'index' llama a 'bas_categoria_controller' para ejecutar lo pedido.
+5. 'bas_categoria_controller' llama a 'bas_categoria' y ejecuta el código.
+6. 'index' devuelve el resultado.
+7. La REST API de C# lo recoge y lo muestra al usuario.
+## 💻 Tecnologías usadas
+- Lenguajes de programación: C#, PHP
+- Framework: ASP.NET Core (Proyecto creado con el Framework .Net 8.0)
 - NuGets:
   - Swashbuckle.AapNetCore (6.4.0)
-- Other:
+- Otros:
   - XAMPP (3.3.0)
     - Apache
     - MySQL 
     - PhpMyAdmin
-- Recommended IDEs: Visual Studio 2022 (C#), VS Code (PHP)
+- IDEs Recomendados: Visual Studio 2022 (C#), VS Code (PHP)
