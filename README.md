@@ -39,13 +39,13 @@ Si creasemos una linea de tiempo de la ejecución seria algo asi:
 6. 'index' devuelve el resultado.
 7. La REST API de C# lo recoge y lo muestra al usuario.
 ## 💻 Tecnologías usadas
-- Lenguajes de programación: C#, PHP
-- Framework: ASP.NET Core (Proyecto creado con el Framework .Net 8.0)
+- Lenguajes de programación: [C#](https://dotnet.microsoft.com/es-es/languages/csharp), [PHP](https://www.php.net/)
+- Framework: [ASP.NET Core](https://dotnet.microsoft.com/es-es/apps/aspnet) (Proyecto creado con el Framework [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) 8.0)
 - NuGets:
-  - Swashbuckle.AapNetCore (6.4.0)
+  - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) (6.4.0)
 - Otros:
-  - XAMPP (3.3.0)
-    - Apache
-    - MySQL 
-    - PhpMyAdmin
-- IDEs Recomendados: Visual Studio 2022 (C#), VS Code (PHP)
+  - [XAMPP](https://www.apachefriends.org/es/index.html) (3.3.0)
+    - [Apache](https://httpd.apache.org/)
+    - [MySQL](https://www.mysql.com/) 
+    - [PhpMyAdmin](https://www.phpmyadmin.net/)
+- IDEs Recomendados:[Visual Studio 2022](https://visualstudio.microsoft.com/) (C#), [VS Code](https://code.visualstudio.com/) (PHP)
