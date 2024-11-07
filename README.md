@@ -42,13 +42,13 @@ If we could make a timeline of the execution time it would be like this:
 6. 'index' returns the result.
 7. The C# REST API receives it and shows it to the user.
 ## 💻 Technologies used
-- Programming Lenguages: C#, PHP
-- Framework: ASP.NET Core (Project made with .Net 8.0 Framework)
+- Programming Lenguages: [C#](https://dotnet.microsoft.com/en-us/languages/csharp), [PHP](https://www.php.net/)
+- Framework: [ASP.NET Core](https://dotnet.microsoft.com/en-us/apps/aspnet) (Project made with [.Net](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet) 8.0 Framework)
 - NuGets:
-  - Swashbuckle.AapNetCore (6.4.0)
+  - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) (6.4.0)
 - Other:
-  - XAMPP (3.3.0)
-    - Apache
-    - MySQL 
-    - PhpMyAdmin
-- Recommended IDEs: Visual Studio 2022 (C#), VS Code (PHP)
+  - [XAMPP](https://www.apachefriends.org/es/index.html) (3.3.0)
+    - [Apache](https://httpd.apache.org/)
+    - [MySQL](https://www.mysql.com/) 
+    - [PhpMyAdmin](https://www.phpmyadmin.net/)
+- Recommended IDEs: [Visual Studio 2022](https://visualstudio.microsoft.com/) (C#), [VS Code](https://code.visualstudio.com/) (PHP)
