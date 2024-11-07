@@ -24,11 +24,11 @@ CREATE TABLE `bas_categoria` (
 Ahora solo tienes que ejecutar CategoriesApi para usar la REST API de PHP desde la REST API de C#
 ## 📂 Archivos
 En PHP:
-- index.php: Parte principal de la API, es el que ejecuta el código.
-- models/bas_categoria.php: tiene definidas las diferentes consultas y métodos.
-- controllers/bas_categoria_controller.php: contiene las funciones que se ejecutan directamente en 'bas_categoria.php'.
-- config/database.php: Crea la conexión con la base de datos.
-- config/definiciones.php: Tiene declarados los parametros de la conexión.
+- [index.php](https://github.com/LuisMiSanVe/CSharpPHP_API/blob/main/PHPProject/index.php): Parte principal de la API, es el que ejecuta el código.
+- [models/bas_categoria.php](https://github.com/LuisMiSanVe/CSharpPHP_API/blob/main/PHPProject/models/bas_categoria.php): tiene definidas las diferentes consultas y métodos.
+- [controllers/bas_categoria_controller.php](https://github.com/LuisMiSanVe/CSharpPHP_API/blob/main/PHPProject/controllers/bas_categoria_controller.php): contiene las funciones que se ejecutan directamente en 'bas_categoria.php'.
+- [config/database.php](https://github.com/LuisMiSanVe/CSharpPHP_API/blob/main/PHPProject/config/database.php): Crea la conexión con la base de datos.
+- [config/definiciones.php](https://github.com/LuisMiSanVe/CSharpPHP_API/blob/main/PHPProject/config/definiciones.php): Tiene declarados los parametros de la conexión.
 
 Si creasemos una linea de tiempo de la ejecución seria algo asi:
 1. 'index' empieza a ejecutar el código.
