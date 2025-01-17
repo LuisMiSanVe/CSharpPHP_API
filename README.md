@@ -1,4 +1,4 @@
-> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/CSharpPHP_API/tree/spanish)
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/CSharpPHP_API/blob/main/README.es.md)
 # 🌐 C# - PHP REST APIs Communication Project
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
